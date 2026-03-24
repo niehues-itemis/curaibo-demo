@@ -1,0 +1,30 @@
+{
+  "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+  "title": "schreib mal diesen Gläubiger an",
+  "status": "offen",
+  "tags": [],
+  "createdBy": "user-003",
+  "assignees": [
+    "user-008"
+  ],
+  "linkedElements": [
+    {
+      "type": "beteiligter",
+      "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+      "groupId": "glaeubigeranlage6",
+      "beteiligterId": "glaeubigeranlage6_0",
+      "label": "Sparkasse Frankfurt"
+    }
+  ],
+  "id": "3b2b1037-bf1c-4636-9a44-c17124382b1e",
+  "createdAt": "2026-03-24T15:43:40.161Z",
+  "comments": [],
+  "history": [
+    {
+      "id": "7d4dd4d0-bdf1-4ebb-89c1-238e510feae0",
+      "timestamp": "2026-03-24T15:43:40.161Z",
+      "authorId": "user-003",
+      "type": "created"
+    }
+  ]
+}

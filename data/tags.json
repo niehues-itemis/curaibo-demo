@@ -1,0 +1,529 @@
+{
+  "tags": [
+    {
+      "id": "tag-r01",
+      "namespace": "user/role",
+      "name": "refa",
+      "label": "ReFa",
+      "color": "blue"
+    },
+    {
+      "id": "tag-r02",
+      "namespace": "user/role",
+      "name": "rechtsanwalt",
+      "label": "Rechtsanwalt",
+      "color": "indigo"
+    },
+    {
+      "id": "tag-r03",
+      "namespace": "user/role",
+      "name": "kanzlei-partner",
+      "label": "Kanzlei-Partner",
+      "color": "purple"
+    },
+    {
+      "id": "tag-r04",
+      "namespace": "user/role",
+      "name": "administrator",
+      "label": "Administrator",
+      "color": "red"
+    },
+    {
+      "id": "tag-t01",
+      "namespace": "user/team",
+      "name": "insolvenz",
+      "label": "Team Insolvenz",
+      "color": "blue"
+    },
+    {
+      "id": "tag-t02",
+      "namespace": "user/team",
+      "name": "erbrecht",
+      "label": "Team Erbrecht",
+      "color": "green"
+    },
+    {
+      "id": "tag-t03",
+      "namespace": "user/team",
+      "name": "zivil",
+      "label": "Team Zivil",
+      "color": "orange"
+    },
+    {
+      "id": "tag-s01",
+      "namespace": "user/standort",
+      "name": "münchen",
+      "label": "München",
+      "color": "gray"
+    },
+    {
+      "id": "tag-h01",
+      "namespace": "user/hierarchie",
+      "name": "partner",
+      "label": "Partner",
+      "color": "purple"
+    },
+    {
+      "id": "tag-h02",
+      "namespace": "user/hierarchie",
+      "name": "senior",
+      "label": "Senior",
+      "color": "indigo"
+    },
+    {
+      "id": "tag-h03",
+      "namespace": "user/hierarchie",
+      "name": "junior",
+      "label": "Junior",
+      "color": "sky"
+    },
+    {
+      "id": "tag-g01",
+      "namespace": "",
+      "name": "dringend",
+      "label": "Dringend",
+      "color": "red"
+    },
+    {
+      "id": "tag-g02",
+      "namespace": "",
+      "name": "komplex",
+      "label": "Komplex",
+      "color": "purple"
+    },
+    {
+      "id": "tag-g03",
+      "namespace": "",
+      "name": "vip",
+      "label": "VIP",
+      "color": "indigo"
+    },
+    {
+      "id": "tag-as01",
+      "namespace": "akten/status",
+      "name": "neu",
+      "label": "Neu",
+      "color": "blue"
+    },
+    {
+      "id": "tag-as02",
+      "namespace": "akten/status",
+      "name": "offen",
+      "label": "Offen",
+      "color": "orange"
+    },
+    {
+      "id": "tag-as03",
+      "namespace": "akten/status",
+      "name": "wartend",
+      "label": "Wartend",
+      "color": "gray"
+    },
+    {
+      "id": "tag-as04",
+      "namespace": "akten/status",
+      "name": "geprueft",
+      "label": "Geprüft",
+      "color": "green"
+    },
+    {
+      "id": "tag-a1773915657452",
+      "namespace": "akten/typ",
+      "name": "verbraucherinsolvenz",
+      "label": "Verbraucherinsolvenz",
+      "color": "black"
+    },
+    {
+      "id": "tag-a1773915657453",
+      "namespace": "akten/typ",
+      "name": "firmeninsolvenz",
+      "label": "Firmeninsolvenz",
+      "color": "black"
+    },
+    {
+      "id": "tag-a1773915657454",
+      "namespace": "akten/typ",
+      "name": "arbeitsrecht",
+      "label": "Arbeitsrecht",
+      "color": "yellow"
+    },
+    {
+      "id": "tag-a1773916649824",
+      "namespace": "akten",
+      "name": "test",
+      "label": "Test",
+      "color": "gray"
+    },
+    {
+      "id": "tag-ap01",
+      "namespace": "aufgabe/priorität",
+      "name": "hoch",
+      "label": "Hohe Priorität",
+      "color": "red"
+    },
+    {
+      "id": "tag-ap02",
+      "namespace": "aufgabe/priorität",
+      "name": "mittel",
+      "label": "Mittlere Priorität",
+      "color": "amber"
+    },
+    {
+      "id": "tag-ap03",
+      "namespace": "aufgabe/priorität",
+      "name": "niedrig",
+      "label": "Niedrige Priorität",
+      "color": "green"
+    },
+    {
+      "id": "tag-au01",
+      "namespace": "aufgabe",
+      "name": "frist",
+      "label": "Fristgebunden",
+      "color": "orange"
+    },
+    {
+      "id": "tag-au02",
+      "namespace": "aufgabe",
+      "name": "rueckfrage",
+      "label": "Rückfrage offen",
+      "color": "sky"
+    },
+    {
+      "id": "tag-au03",
+      "namespace": "aufgabe",
+      "name": "extern",
+      "label": "Extern",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-stammakte",
+      "namespace": "dokument/kategorie",
+      "name": "stammakte",
+      "label": "Stammakte",
+      "color": "blue"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft",
+      "namespace": "dokument/kategorie",
+      "name": "schuldner-gesellschaft",
+      "label": "Schuldner/Gesellschaft",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-vertraege",
+      "namespace": "dokument/kategorie",
+      "name": "vertraege",
+      "label": "Verträge",
+      "color": "green"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av",
+      "namespace": "dokument/kategorie",
+      "name": "bewegliches-av",
+      "label": "Bewegliches Anlagevermögen",
+      "color": "yellow"
+    },
+    {
+      "id": "dkat-dokument-kategorie-unbewegliches-av",
+      "namespace": "dokument/kategorie",
+      "name": "unbewegliches-av",
+      "label": "Unbewegliches Anlagevermögen",
+      "color": "amber"
+    },
+    {
+      "id": "dkat-dokument-kategorie-kreditinstitute",
+      "namespace": "dokument/kategorie",
+      "name": "kreditinstitute",
+      "label": "Kreditinstitute/liquide Mittel",
+      "color": "orange"
+    },
+    {
+      "id": "dkat-dokument-kategorie-forderungen",
+      "namespace": "dokument/kategorie",
+      "name": "forderungen",
+      "label": "Forderungseinzug/Prozesse",
+      "color": "red"
+    },
+    {
+      "id": "dkat-dokument-kategorie-betriebsfuehrung",
+      "namespace": "dokument/kategorie",
+      "name": "betriebsfuehrung",
+      "label": "Betriebsfortführung/Abwicklung",
+      "color": "rose"
+    },
+    {
+      "id": "dkat-dokument-kategorie-insolvenzspezifisch",
+      "namespace": "dokument/kategorie",
+      "name": "insolvenzspezifisch",
+      "label": "Insolvenzspezifische Unterlagen",
+      "color": "purple"
+    },
+    {
+      "id": "dkat-dokument-kategorie-arbeitnehmer",
+      "namespace": "dokument/kategorie",
+      "name": "arbeitnehmer",
+      "label": "Arbeitnehmer",
+      "color": "violet"
+    },
+    {
+      "id": "dkat-dokument-kategorie-finanzamt",
+      "namespace": "dokument/kategorie",
+      "name": "finanzamt",
+      "label": "Finanzamt/Steuern",
+      "color": "indigo"
+    },
+    {
+      "id": "dkat-dokument-kategorie-tabellenfuehrung",
+      "namespace": "dokument/kategorie",
+      "name": "tabellenfuehrung",
+      "label": "Tabellenführung/Verbindlichkeiten",
+      "color": "sky"
+    },
+    {
+      "id": "dkat-dokument-kategorie-verfahrensbuchhaltung",
+      "namespace": "dokument/kategorie",
+      "name": "verfahrensbuchhaltung",
+      "label": "Verfahrensbuchhaltung",
+      "color": "cyan"
+    },
+    {
+      "id": "dkat-dokument-kategorie-masseglaeubigers",
+      "namespace": "dokument/kategorie",
+      "name": "masseglaeubigers",
+      "label": "Massegläubiger § 55 InsO",
+      "color": "emerald"
+    },
+    {
+      "id": "dkat-dokument-kategorie-insolvenzplan",
+      "namespace": "dokument/kategorie",
+      "name": "insolvenzplan",
+      "label": "Insolvenzplan",
+      "color": "lime"
+    },
+    {
+      "id": "dkat-dokument-kategorie-glaubigerausschuss",
+      "namespace": "dokument/kategorie",
+      "name": "glaubigerausschuss",
+      "label": "Gläubigerausschuss",
+      "color": "gray"
+    },
+    {
+      "id": "dkat-dokument-kategorie-recherche",
+      "namespace": "dokument/kategorie",
+      "name": "recherche",
+      "label": "Recherche/Aktenvermerke",
+      "color": "slate"
+    },
+    {
+      "id": "dkat-dokument-kategorie-rechnungen",
+      "namespace": "dokument/kategorie",
+      "name": "rechnungen",
+      "label": "Rechnungen",
+      "color": "zinc"
+    },
+    {
+      "id": "dkat-dokument-kategorie-unbekannt",
+      "namespace": "dokument/kategorie",
+      "name": "unbekannt",
+      "label": "Nicht klassifiziert",
+      "color": "stone"
+    },
+    {
+      "id": "dkat-dokument-kategorie-stammakte-gerichtsakte",
+      "namespace": "dokument/kategorie/stammakte",
+      "name": "gerichtsakte",
+      "label": "Gerichtsakte",
+      "color": "blue"
+    },
+    {
+      "id": "dkat-dokument-kategorie-stammakte-beschluesse",
+      "namespace": "dokument/kategorie/stammakte",
+      "name": "beschluesse",
+      "label": "Beschlüsse/Bestallung",
+      "color": "blue"
+    },
+    {
+      "id": "dkat-dokument-kategorie-stammakte-gerichtskosten",
+      "namespace": "dokument/kategorie/stammakte",
+      "name": "gerichtskosten",
+      "label": "Festsetzer/Gerichtskosten",
+      "color": "blue"
+    },
+    {
+      "id": "dkat-dokument-kategorie-stammakte-korrespondenz-gericht",
+      "namespace": "dokument/kategorie/stammakte",
+      "name": "korrespondenz-gericht",
+      "label": "Korrespondenz mit dem Insolvenzgericht",
+      "color": "blue"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft-korrespondenz-schuldner",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "korrespondenz-schuldner",
+      "label": "Korrespondenz mit Schuldner",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft-ermittlungsbogen",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "ermittlungsbogen",
+      "label": "Ermittlungsbogen",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft-arbeitgeber-rententraeger",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "arbeitgeber-rententraeger",
+      "label": "Arbeitgeber/Rententräger",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft-unterhaltspflichten",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "unterhaltspflichten",
+      "label": "Unterhaltspflichten und Belege",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft-gesellschaftsrecht",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "gesellschaftsrecht",
+      "label": "Gesellschaftsrechtliche Unterlagen",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft-handelsregister",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "handelsregister",
+      "label": "Handelsregister/Gewerbeamt",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft-kammern-berufsstaende",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "kammern-berufsstaende",
+      "label": "Kammern/Berufsständische Organisationen",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-schuldner-gesellschaft-staatsanwaltschaft",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "staatsanwaltschaft",
+      "label": "Staatsanwaltschaft/Polizei",
+      "color": "teal"
+    },
+    {
+      "id": "dkat-dokument-kategorie-vertraege-mietvertraege-privat",
+      "namespace": "dokument/kategorie/vertraege",
+      "name": "mietvertraege-privat",
+      "label": "Mietvertragsunterlagen privat",
+      "color": "green"
+    },
+    {
+      "id": "dkat-dokument-kategorie-vertraege-mietvertraege-geschaeftlich",
+      "namespace": "dokument/kategorie/vertraege",
+      "name": "mietvertraege-geschaeftlich",
+      "label": "Mietvertragsunterlagen geschäftlich",
+      "color": "green"
+    },
+    {
+      "id": "dkat-dokument-kategorie-vertraege-versorger",
+      "namespace": "dokument/kategorie/vertraege",
+      "name": "versorger",
+      "label": "Versorger (Strom, Wasser, ...)",
+      "color": "green"
+    },
+    {
+      "id": "dkat-dokument-kategorie-vertraege-versicherungen",
+      "namespace": "dokument/kategorie/vertraege",
+      "name": "versicherungen",
+      "label": "Versicherungen",
+      "color": "green"
+    },
+    {
+      "id": "dkat-dokument-kategorie-vertraege-sonstige-vertraege",
+      "namespace": "dokument/kategorie/vertraege",
+      "name": "sonstige-vertraege",
+      "label": "Sonstige Verträge",
+      "color": "green"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av-betriebs-ausstattung",
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "name": "betriebs-ausstattung",
+      "label": "Betriebs- und Geschäftsausstattung",
+      "color": "yellow"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av-technische-anlagen",
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "name": "technische-anlagen",
+      "label": "Technische Anlagen und Maschinen",
+      "color": "yellow"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av-vorraete-warenlager",
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "name": "vorraete-warenlager",
+      "label": "Vorräte/Warenlager",
+      "color": "yellow"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av-korrespondenz-sachverst",
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "name": "korrespondenz-sachverst",
+      "label": "Korrespondenz mit Sachverständigen",
+      "color": "yellow"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av-erwerbsinteressenten",
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "name": "erwerbsinteressenten",
+      "label": "Erwerbsinteressenten",
+      "color": "yellow"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av-anteile-unternehmen",
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "name": "anteile-unternehmen",
+      "label": "Anteile an Unternehmen",
+      "color": "yellow"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av-konzessionen-schutzrechte",
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "name": "konzessionen-schutzrechte",
+      "label": "Konzessionen/Schutzrechte",
+      "color": "yellow"
+    },
+    {
+      "id": "dkat-dokument-kategorie-bewegliches-av-fahrzeuge",
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "name": "fahrzeuge",
+      "label": "Fahrzeuge",
+      "color": "yellow"
+    },
+    {
+      "id": "tag-d1774003073655",
+      "namespace": "dokument/kategorie/stammakte",
+      "name": "glaeubiger",
+      "label": "Gläubiger",
+      "color": "blue"
+    },
+    {
+      "id": "dkat-dokument-kategorie-stammakte-glaeubigeranschreiben",
+      "namespace": "dokument/kategorie/stammakte",
+      "name": "glaeubigeranschreiben",
+      "label": "Gläubigeranschreiben",
+      "color": "blue"
+    },
+    {
+      "id": "tag-d1774367088501",
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "name": "blabla",
+      "label": "blabla",
+      "color": "rose"
+    }
+  ]
+}

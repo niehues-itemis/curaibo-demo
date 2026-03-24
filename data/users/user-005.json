@@ -1,0 +1,18 @@
+{
+  "id": "user-005",
+  "name": "Michael Schwarz",
+  "email": "m.schwarz@kanzlei-bergmann.de",
+  "initials": "MS",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=michael-schwarz&backgroundColor=ffdfbf",
+  "roles": [
+    "user/role/rechtsanwalt"
+  ],
+  "tags": [
+    "user/team/erbrecht",
+    "user/standort/münchen",
+    "user/hierarchie/senior"
+  ],
+  "filterPreferences": {
+    "tags": []
+  }
+}

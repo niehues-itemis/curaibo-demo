@@ -1,0 +1,13 @@
+{
+  "provider": "litellm",
+  "ocrProvider": "claude",
+  "mistral": {
+    "apiKey": ""
+  },
+  "litellm": {
+    "baseUrl": "https://llms.itemis.cloud/v1",
+    "apiKey": "sk-InlbnlZ3R4s3D9sD9Qk-Mg",
+    "modelPrimary": "claude-sonnet-4-6",
+    "modelFast": "claude-opus-4-6"
+  }
+}

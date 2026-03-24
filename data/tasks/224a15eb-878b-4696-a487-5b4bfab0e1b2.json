@@ -1,0 +1,19 @@
+{
+  "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+  "title": "Akte Müller übernehmen!",
+  "description": "Bitte bearbeite die VI des Mandantin komplett...",
+  "status": "offen",
+  "createdBy": "user-001",
+  "assignees": [
+    "user-002"
+  ],
+  "linkedElements": [
+    {
+      "type": "akte",
+      "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+      "label": "INS-2026-004"
+    }
+  ],
+  "id": "224a15eb-878b-4696-a487-5b4bfab0e1b2",
+  "createdAt": "2026-03-19T13:01:41.783Z"
+}

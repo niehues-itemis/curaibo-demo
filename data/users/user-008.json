@@ -1,0 +1,17 @@
+{
+  "id": "user-008",
+  "name": "Maria Hoffmann",
+  "email": "m.hoffmann@kanzlei-bergmann.de",
+  "initials": "MH",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=maria-hoffmann&backgroundColor=d1f4e0",
+  "roles": [
+    "user/role/refa"
+  ],
+  "tags": [
+    "user/team/erbrecht",
+    "user/standort/münchen"
+  ],
+  "filterPreferences": {
+    "tags": []
+  }
+}

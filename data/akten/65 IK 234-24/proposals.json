@@ -1,0 +1,194 @@
+[
+  {
+    "id": "5a7f952d-0d14-43b6-9991-3f6a5761d537",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "schuldner_person",
+    "fieldId": "strasseHausnr",
+    "fieldLabel": "Straße, Hausnummer",
+    "currentValue": "Gartenstraße 7",
+    "proposedValue": "Musterstraße 12",
+    "reason": "Im Briefkopf des Dokuments steht als aktuelle Adresse 'Musterstraße 12, 60318 Frankfurt am Main', bisheriger Wert war 'Gartenstraße 7'.",
+    "confidence": 0.75,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "db2b43a4-d2e3-45d3-bc13-ff593923dc37",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "schuldner_person",
+    "fieldId": "plzOrt",
+    "fieldLabel": "PLZ, Ort",
+    "currentValue": "60594 Frankfurt am Main",
+    "proposedValue": "60318 Frankfurt am Main",
+    "reason": "Im Briefkopf des Dokuments steht PLZ 60318, bisheriger Wert war '60594 Frankfurt am Main'.",
+    "confidence": 0.75,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "a27838d7-9d24-4f7a-8dab-cc03b0561970",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "schuldner_person",
+    "fieldId": "telefon",
+    "fieldLabel": "Telefon (privat)",
+    "currentValue": "+49 69 44556677",
+    "proposedValue": "069 / 12345678",
+    "reason": "Im Briefkopf steht die Telefonnummer '069 / 12345678', bisheriger Wert war '+49 69 44556677'.",
+    "confidence": 0.7,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "6549b47c-73c5-414f-bca9-0fd5c4fd95c1",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "schuldner_person",
+    "fieldId": "email",
+    "fieldLabel": "E-Mail",
+    "currentValue": "thomas.weber@example.com",
+    "proposedValue": "thomas.weber@email.de",
+    "reason": "Im Briefkopf steht 'thomas.weber@email.de', bisheriger Wert war 'thomas.weber@example.com'.",
+    "confidence": 0.65,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "e2567f92-ef9d-45f1-8fcf-91fc5524edb4",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "schuldner_beschaeftigung",
+    "fieldId": "arbeitgeberName",
+    "fieldLabel": "Arbeitgeber (Name/Firma)",
+    "currentValue": "Druckerei Müller GmbH",
+    "proposedValue": "Rhein-Main Handels GmbH",
+    "reason": "Das Dokument teilt mit, dass Thomas Weber seit 01.03.2026 bei der Rhein-Main Handels GmbH beschäftigt ist. Der bisherige Arbeitgeber Druckerei Müller GmbH wurde zum 28.02.2026 verlassen.",
+    "confidence": 0.97,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "b6f3b1c1-96e6-448b-ac9f-1564285e8037",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "schuldner_beschaeftigung",
+    "fieldId": "arbeitgeberAdresse",
+    "fieldLabel": "Arbeitgeber (Adresse)",
+    "currentValue": "Hanauer Landstraße 5, 60314 Frankfurt am Main",
+    "proposedValue": "Kaiserstraße 87, 60329 Frankfurt am Main",
+    "reason": "Im Dokument wird die Adresse des neuen Arbeitgebers als 'Kaiserstraße 87, 60329 Frankfurt am Main' angegeben.",
+    "confidence": 0.97,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "53f9f86c-6456-4468-862f-1be28f5b9a06",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "schuldner_beschaeftigung",
+    "fieldId": "monatlichesNettoeinkommen",
+    "fieldLabel": "Monatliches Nettoeinkommen",
+    "currentValue": "2890.00",
+    "proposedValue": "3010.00",
+    "reason": "Monatliches Nettoeinkommen beim neuen Arbeitgeber beträgt laut Dokument 3.010,00 €, bisheriger Wert war 2.890,00 €.",
+    "confidence": 0.95,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "4d15c6cd-0052-4d9e-99c4-5eb6e4a30ca8",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "arbeitgeber_5g",
+    "fieldId": "nameOderFirma",
+    "fieldLabel": "Name/Firma des Arbeitgebers",
+    "currentValue": "Druckeri Müller GmbH",
+    "proposedValue": "Rhein-Main Handels GmbH",
+    "reason": "Neuer Arbeitgeber seit 01.03.2026 ist die Rhein-Main Handels GmbH, ersetzt die Druckerei Müller GmbH.",
+    "confidence": 0.97,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "f922750f-c2c6-4c41-85cd-3596af385783",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "arbeitgeber_5g",
+    "fieldId": "strasseHausnr",
+    "fieldLabel": "Straße, Hausnummer",
+    "currentValue": "Hanauer-Landstraße 5",
+    "proposedValue": "Kaiserstraße 87",
+    "reason": "Adresse des neuen Arbeitgebers: Kaiserstraße 87, 60329 Frankfurt am Main.",
+    "confidence": 0.97,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "147c6ca3-0b50-445e-acf8-646d018fe4cb",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "arbeitgeber_5g",
+    "fieldId": "plzOrt",
+    "fieldLabel": "PLZ, Ort",
+    "currentValue": "60314 Frankfurt am Main",
+    "proposedValue": "60329 Frankfurt am Main",
+    "reason": "PLZ und Ort des neuen Arbeitgebers laut Dokument.",
+    "confidence": 0.97,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "52b9df02-aa8e-4874-9f17-16ef53f90339",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "arbeitgeber_5g",
+    "fieldId": "arbeitseinkommen",
+    "fieldLabel": "Arbeitseinkommen netto monatl. (EUR)",
+    "currentValue": "2890,00",
+    "proposedValue": "3010,00",
+    "reason": "Monatliches Nettoeinkommen beim neuen Arbeitgeber beträgt 3.010,00 €.",
+    "confidence": 0.95,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  },
+  {
+    "id": "2fbe853d-f9a6-481e-95ce-8f3fc33a3b52",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    },
+    "groupId": "einkuenfteAnlage4",
+    "fieldId": "arbeitseinkommenMonatl",
+    "fieldLabel": "2.1 Arbeitseinkommen monatl. netto (EUR)",
+    "currentValue": "3265,00",
+    "proposedValue": "3010,00",
+    "reason": "Neues Nettoeinkommen 3.010,00 € laut Arbeitgeberwechsel-Mitteilung. Bisheriger Wert 3.265,00 € könnte veraltet sein bzw. durch den neuen Arbeitsvertrag ersetzt werden.",
+    "confidence": 0.7,
+    "status": "pending",
+    "createdAt": "2026-03-17T09:58:24.981Z"
+  }
+]

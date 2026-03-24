@@ -1,0 +1,30 @@
+{
+  "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+  "title": "Bearbeite Reschschuldbefreiung",
+  "description": "Du machst das schon :-)",
+  "status": "offen",
+  "tags": [],
+  "createdBy": "user-003",
+  "assignees": [
+    "user-002"
+  ],
+  "linkedElements": [
+    {
+      "type": "feldgruppe",
+      "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+      "groupId": "rsb",
+      "label": "Restschuldbefreiung (RSB)"
+    }
+  ],
+  "id": "fb8223ef-78b5-4744-a8ad-ef5b7ba125f1",
+  "createdAt": "2026-03-20T10:56:48.278Z",
+  "comments": [],
+  "history": [
+    {
+      "id": "556fe958-1ff4-4462-bf48-e31d267d02c7",
+      "timestamp": "2026-03-20T10:56:48.278Z",
+      "authorId": "user-003",
+      "type": "created"
+    }
+  ]
+}

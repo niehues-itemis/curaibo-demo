@@ -1,0 +1,43 @@
+{
+  "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+  "title": "mach mal",
+  "status": "offen",
+  "tags": [],
+  "createdBy": "user-001",
+  "assignees": [
+    "user-003"
+  ],
+  "linkedElements": [
+    {
+      "type": "dokument",
+      "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    }
+  ],
+  "id": "9ac62fc6-2775-40dc-a57a-fcf9b3b180b4",
+  "createdAt": "2026-03-24T15:42:49.794Z",
+  "comments": [
+    {
+      "id": "7ecc59df-2ebc-4520-8fda-0f67f989b99f",
+      "authorId": "user-003",
+      "text": "ok",
+      "createdAt": "2026-03-24T15:43:14.409Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "362bb3f2-ae1f-4df4-9c9c-63af0abffafb",
+      "timestamp": "2026-03-24T15:42:49.794Z",
+      "authorId": "user-001",
+      "type": "created"
+    },
+    {
+      "id": "67f0ec1a-7f12-4516-a8a0-ecf688ae8cc5",
+      "timestamp": "2026-03-24T15:43:14.409Z",
+      "authorId": "user-003",
+      "type": "comment_added",
+      "commentId": "7ecc59df-2ebc-4520-8fda-0f67f989b99f"
+    }
+  ]
+}

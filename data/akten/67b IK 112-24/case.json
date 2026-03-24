@@ -1,0 +1,1853 @@
+{
+  "caseId": "bc834796-4e97-4c29-ba4d-d3cd3f7c9f37",
+  "filename": "INS-SabineHoffmann_2026_printed.pdf",
+  "uploadedAt": "2026-03-10T09:24:42.069Z",
+  "status": "review_complete",
+  "processingTimeMs": 106237,
+  "fieldGroups": [
+    {
+      "groupId": "verfahrensangaben",
+      "label": "Verfahrensangaben",
+      "anlageName": "Hauptantrag",
+      "sectionLabel": "§ I – III Eröffnungsantrag",
+      "fields": [
+        {
+          "fieldId": "zustaendigesAmtsgericht",
+          "label": "Zuständiges Amtsgericht",
+          "fieldType": "text",
+          "extractedValue": "Hamburg",
+          "confidence": 0.93,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "aktenzeichen",
+          "label": "Aktenzeichen",
+          "fieldType": "text",
+          "extractedValue": "",
+          "confidence": 0.5,
+          "confidenceReason": "Kein Aktenzeichen im Formular eingetragen",
+          "status": "manually_corrected",
+          "correctedValue": "67b IK 112/24",
+          "reviewedAt": "2026-03-10T09:30:41.146Z"
+        },
+        {
+          "fieldId": "antragsDatum",
+          "label": "Antragsdatum",
+          "fieldType": "date",
+          "extractedValue": "03.03.2026",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "aussergerichtlicherEinigungsversuch",
+          "label": "Außergerichtlicher Einigungsversuch unternommen",
+          "fieldType": "checkbox",
+          "extractedValue": "true",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "bescheinigungBeigefuegt",
+          "label": "Bescheinigung beigefügt",
+          "fieldType": "checkbox",
+          "extractedValue": "true",
+          "confidence": 0.95,
+          "confidenceReason": "Anlage 2 ist beigefügt (X markiert)",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "fruehereInsolvenzverfahren",
+          "label": "Frühere Insolvenzverfahren",
+          "fieldType": "checkbox",
+          "extractedValue": "false",
+          "confidence": 0.7,
+          "confidenceReason": "Nicht explizit angegeben, aber aus II.2.a) ergibt sich, dass kein früherer RSB-Antrag gestellt wurde",
+          "status": "extracted_confirmed",
+          "reviewedAt": "2026-03-10T09:25:23.861Z"
+        }
+      ]
+    },
+    {
+      "groupId": "rsb",
+      "label": "Restschuldbefreiung (RSB)",
+      "anlageName": "Hauptantrag",
+      "sectionLabel": "§ II Restschuldbefreiungsantrag",
+      "fields": [
+        {
+          "fieldId": "rsbBeantragt",
+          "label": "RSB beantragt",
+          "fieldType": "checkbox",
+          "extractedValue": "true",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "fruehereRSBErteilt",
+          "label": "Frühere RSB erteilt (letzte 10 J.)",
+          "fieldType": "checkbox",
+          "extractedValue": "false",
+          "confidence": 0.9,
+          "confidenceReason": "II.2.a) zeigt: bisher nicht gestellt",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "rsbAntragDatum",
+          "label": "RSB Antrag gestellt am",
+          "fieldType": "date",
+          "extractedValue": "",
+          "confidence": 0.8,
+          "confidenceReason": "Kein früherer RSB-Antrag gestellt, daher kein Datum",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "rsbErteiltDatum",
+          "label": "RSB erteilt am",
+          "fieldType": "date",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Kein früherer RSB-Antrag",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "obliegenheitenAkzeptiert",
+          "label": "Obliegenheiten akzeptiert (§ 295 InsO)",
+          "fieldType": "checkbox",
+          "extractedValue": "true",
+          "confidence": 0.8,
+          "confidenceReason": "Abtretungserklärung unterzeichnet, impliziert Akzeptanz",
+          "status": "extracted_confirmed",
+          "reviewedAt": "2026-03-10T09:29:35.103Z"
+        }
+      ]
+    },
+    {
+      "groupId": "schuldner_person",
+      "label": "Angaben zur Person des Schuldners",
+      "anlageName": "Anlage 1",
+      "sectionLabel": "§ 9 Personalien",
+      "fields": [
+        {
+          "fieldId": "nachname",
+          "label": "Nachname",
+          "fieldType": "text",
+          "extractedValue": "Hoffmann",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "akademischerGrad",
+          "label": "Akademischer Grad",
+          "fieldType": "text",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Kein akademischer Grad eingetragen",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "vorname",
+          "label": "Vorname(n)",
+          "fieldType": "text",
+          "extractedValue": "Sabine",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "geschlecht",
+          "label": "Geschlecht",
+          "fieldType": "radio",
+          "extractedValue": "weiblich",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "geburtsname",
+          "label": "Geburtsname",
+          "fieldType": "text",
+          "extractedValue": "Schmidt",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "fruehererName",
+          "label": "Früherer Name",
+          "fieldType": "text",
+          "extractedValue": "Geburtsdatum",
+          "confidence": 0.88,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "geburtsdatum",
+          "label": "Geburtsdatum",
+          "fieldType": "date",
+          "extractedValue": "22.08.1990",
+          "confidence": 0.95,
+          "confidenceReason": "Geburtsdatum scheint unvollständig - endet mit '197', Jahr fehlt vollständig",
+          "status": "extracted_confirmed",
+          "reviewedAt": "2026-03-10T09:26:42.993Z"
+        },
+        {
+          "fieldId": "geburtsort",
+          "label": "Geburtsort",
+          "fieldType": "text",
+          "extractedValue": "Lübeck",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "strasseHausnr",
+          "label": "Straße, Hausnummer",
+          "fieldType": "text",
+          "extractedValue": "Mönckebergstraße 5",
+          "confidence": 0.88,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "plzOrt",
+          "label": "PLZ, Ort",
+          "fieldType": "text",
+          "extractedValue": "20095 Hamburg",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "telefon",
+          "label": "Telefon (privat)",
+          "fieldType": "text",
+          "extractedValue": "+49 40 33445566",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "mobil",
+          "label": "Mobil",
+          "fieldType": "text",
+          "extractedValue": "+49 160 11223344",
+          "confidence": 0.8,
+          "confidenceReason": "Aus Formular als Mobilnummer interpretiert, da zwei Nummern angegeben",
+          "status": "extracted_confirmed",
+          "reviewedAt": "2026-03-10T09:26:52.098Z"
+        },
+        {
+          "fieldId": "email",
+          "label": "E-Mail",
+          "fieldType": "text",
+          "extractedValue": "s.hoffmann@example.com",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "familienstand",
+          "label": "Familienstand",
+          "fieldType": "radio",
+          "extractedValue": "ledig",
+          "confidence": 0.8,
+          "confidenceReason": "Aus dem Kontext geschlossen, da Scheidungsdatum 12.08.2020 angegeben",
+          "status": "extracted_confirmed",
+          "reviewedAt": "2026-03-10T09:27:07.365Z"
+        },
+        {
+          "fieldId": "familienstandDatum",
+          "label": "Familienstand seit",
+          "fieldType": "date",
+          "extractedValue": "12.08.2020",
+          "confidence": 0.85,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "unterhaltsberechtigtJa",
+          "label": "Unterhaltsberechtigte vorhanden",
+          "fieldType": "checkbox",
+          "extractedValue": "false",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "anzahlUnterhaltsberechtigterKinder",
+          "label": "Unterhaltsberechtigte Personen (Anzahl)",
+          "fieldType": "number",
+          "extractedValue": "0",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "davonMinderjährig",
+          "label": "Davon minderjährig",
+          "fieldType": "number",
+          "extractedValue": "0",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        }
+      ]
+    },
+    {
+      "groupId": "schuldner_beschaeftigung",
+      "label": "Beschäftigung und Einkommen",
+      "anlageName": "Anlage 1",
+      "sectionLabel": "§ 12 Beteiligung am Erwerbsleben",
+      "fields": [
+        {
+          "fieldId": "erlernterBeruf",
+          "label": "Erlernter Beruf",
+          "fieldType": "text",
+          "extractedValue": "Einzelhandelskauffrau",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "zuletztTaetigAls",
+          "label": "Zuletzt tätig als",
+          "fieldType": "text",
+          "extractedValue": "Verkäuferin",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "ehemSelbstaendig",
+          "label": "Ehemals selbständig",
+          "fieldType": "checkbox",
+          "extractedValue": "false",
+          "confidence": 0.9,
+          "confidenceReason": "Nein angekreuzt",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "ehemSelbstaendigAls",
+          "label": "Ehemals selbständig als",
+          "fieldType": "text",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "verbindlichkeitenAusArbeit",
+          "label": "Verbindlichkeiten aus Arbeitsverhältnissen",
+          "fieldType": "checkbox",
+          "extractedValue": "false",
+          "confidence": 0.9,
+          "confidenceReason": "Nein angekreuzt",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "beschaeftigungsart",
+          "label": "Art der Beschäftigung",
+          "fieldType": "radio",
+          "extractedValue": "Angestellte(r)",
+          "confidence": 0.9,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "arbeitgeberName",
+          "label": "Arbeitgeber (Name/Firma)",
+          "fieldType": "text",
+          "extractedValue": "Mode KG Hamburg",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "arbeitgeberAdresse",
+          "label": "Arbeitgeber (Adresse)",
+          "fieldType": "text",
+          "extractedValue": "Spitalerstraße 10, 20095 Hamburg",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "monatlichesNettoeinkommen",
+          "label": "Monatliches Nettoeinkommen",
+          "fieldType": "number",
+          "extractedValue": "1980.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "sonstigeEinkuenfteArt",
+          "label": "Sonstige Einkünfte (Art)",
+          "fieldType": "text",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "sonstigeEinkuenfte",
+          "label": "Sonstige Einkünfte (€)",
+          "fieldType": "number",
+          "extractedValue": "0",
+          "confidence": 0.9,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        }
+      ]
+    },
+    {
+      "groupId": "verfahrensbevollmaechtigte",
+      "label": "Verfahrensbevollmächtigte(r)",
+      "anlageName": "Anlage 1",
+      "sectionLabel": "§ 13 Verfahrensbevollmächtigte(r)",
+      "fields": [
+        {
+          "fieldId": "nachname",
+          "label": "Nachname",
+          "fieldType": "text",
+          "extractedValue": "Berater",
+          "confidence": 0.9,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "akademischerGrad",
+          "label": "Akademischer Grad",
+          "fieldType": "text",
+          "extractedValue": "Dr.",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "vorname",
+          "label": "Vorname",
+          "fieldType": "text",
+          "extractedValue": "Inso",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "beruf",
+          "label": "Beruf/Bezeichnung",
+          "fieldType": "text",
+          "extractedValue": "Jurist",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "strasseHausnr",
+          "label": "Straße, Hausnummer",
+          "fieldType": "text",
+          "extractedValue": "Hauptstraße 12",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "plzOrt",
+          "label": "PLZ, Ort",
+          "fieldType": "text",
+          "extractedValue": "68199 Mannheim",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "telefon",
+          "label": "Telefon",
+          "fieldType": "text",
+          "extractedValue": "+49 234 23324565",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "email",
+          "label": "E-Mail",
+          "fieldType": "text",
+          "extractedValue": "inso.berater@example.com",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "geschaeftszeichen",
+          "label": "Geschäftszeichen",
+          "fieldType": "text",
+          "extractedValue": "INS_EMÜ_2026_03",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        }
+      ]
+    },
+    {
+      "groupId": "vermoegenAnlage4",
+      "label": "Vermögen",
+      "anlageName": "Anlage 4",
+      "sectionLabel": "§ 22 Vermögen (Pos. 1.1–1.10)",
+      "fields": [
+        {
+          "fieldId": "bargeldEur",
+          "label": "1.1 Bargeld (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.7,
+          "confidenceReason": "Bargeld nicht explizit angegeben (nein angekreuzt oder leer)",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "kontenguthabenEur",
+          "label": "1.2 Guthaben auf Konten / Wertpapiere (EUR)",
+          "fieldType": "number",
+          "extractedValue": "22340.00",
+          "confidence": 0.85,
+          "confidenceReason": "Aus 5A: 1,00 (Girokonto) + 22304,00 (Lebensversicherung) = 22305, aber Anlage 4 zeigt 22340,00",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "hausratEur",
+          "label": "1.3 Hausrat / Wertgegenstände (EUR)",
+          "fieldType": "number",
+          "extractedValue": "650.00",
+          "confidence": 0.9,
+          "confidenceReason": "Goldkette 650,00 EUR",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "bautenEur",
+          "label": "1.4 Bauten auf fremden Grundstücken (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "fahrzeugeEur",
+          "label": "1.5 Fahrzeuge (EUR)",
+          "fieldType": "number",
+          "extractedValue": "8200.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "forderungenEur",
+          "label": "1.6 Forderungen gegen Dritte (EUR)",
+          "fieldType": "number",
+          "extractedValue": "3265.00",
+          "confidence": 0.6,
+          "confidenceReason": "Nicht eindeutig aus Anlage 4 ersichtlich",
+          "status": "manually_corrected",
+          "correctedValue": "",
+          "reviewedAt": "2026-03-10T09:27:54.899Z"
+        },
+        {
+          "fieldId": "grundstueckeEur",
+          "label": "1.7 Grundstücke / Eigentumswohnungen (EUR)",
+          "fieldType": "number",
+          "extractedValue": "87500.00",
+          "confidence": 0.9,
+          "confidenceReason": "50% von 175000,00 EUR Eigentumswohnung",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "beteiligungEur",
+          "label": "1.8 Beteiligungen / Aktien (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Keine Beteiligungen angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "immateriellEur",
+          "label": "1.9 Urheberrechte / immaterielle Vermögensgeg. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "sonstigesVermoegenEur",
+          "label": "1.10 Sonstiges Vermögen (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        }
+      ],
+      "displayMode": "table"
+    },
+    {
+      "groupId": "einkuenfteAnlage4",
+      "label": "Einkünfte",
+      "anlageName": "Anlage 4",
+      "sectionLabel": "§ 23 Monatliche Einkünfte + § 24 Jährliche Einkünfte",
+      "fields": [
+        {
+          "fieldId": "arbeitseinkommenMonatl",
+          "label": "2.1 Arbeitseinkommen monatl. netto (EUR)",
+          "fieldType": "number",
+          "extractedValue": "3265.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "algMonatl",
+          "label": "2.2 Arbeitslosengeld / Grundsicherung (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "krankengeldMonatl",
+          "label": "2.3 Krankengeld monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "renteMonatl",
+          "label": "2.4 Rente / Versorgungsbezüge monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "privVersichMonatl",
+          "label": "2.5 Private Renten-/Spar-/Versich. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "sozialleistungenMonatl",
+          "label": "2.6 Sonstige Sozialleistungen monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "550.00",
+          "confidence": 0.95,
+          "confidenceReason": "Kindergeld 550,00 EUR",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "sonstigeEinkuenfteMonatl",
+          "label": "2.7 Sonstige monatl. Einkünfte (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "nichtselbstJaehrlEur",
+          "label": "3.1 Weihnachtsgeld / Tantiemen jährl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "vermietungJaehrlEur",
+          "label": "3.2 Einkünfte aus Vermietung/Verpachtung (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "kapitalJaehrlEur",
+          "label": "3.3 Einkünfte aus Kapitalvermögen (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "sonstigesJaehrlEur",
+          "label": "3.4 Sonstige jährl. Einkünfte (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        }
+      ],
+      "displayMode": "table"
+    },
+    {
+      "groupId": "verpflichtungenAnlage4",
+      "label": "Lebensunterhalt und laufende Verpflichtungen",
+      "anlageName": "Anlage 4",
+      "sectionLabel": "§ 25 Sonstiger Lebensunterhalt + § 26 Zahlungsverpflichtungen",
+      "fields": [
+        {
+          "fieldId": "lebensunterhaltSonstiger",
+          "label": "§ 25 Sonstiger Lebensunterhalt (Beschreibung)",
+          "fieldType": "text",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "unterhaltNaturPersonen",
+          "label": "§ 26.5.1 Naturalunterhalt (Anzahl Personen)",
+          "fieldType": "number",
+          "extractedValue": "2",
+          "confidence": 0.9,
+          "confidenceReason": "Naturalunterhalt für 2 Personen (Kinder)",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "unterhaltBarPersonen",
+          "label": "§ 26.5.1 Barunterhalt (Anzahl Personen)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.7,
+          "confidenceReason": "Barunterhalt nicht explizit angegeben in Anlage 4",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "unterhaltMonatl",
+          "label": "§ 26.5.1 Unterhaltsverpflichtungen (EUR/Monat)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.7,
+          "confidenceReason": "Barunterhaltsbetrag nicht explizit in Anlage 4 eingetragen",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "wohnkostenMonatl",
+          "label": "§ 26.5.2 Wohnkosten monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "1177.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "verpflichtungenSonstigesMonatl",
+          "label": "§ 26.5.3 Sonstige Verpflichtungen (EUR/Monat)",
+          "fieldType": "number",
+          "extractedValue": "1006.00",
+          "confidence": 0.85,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        }
+      ],
+      "displayMode": "table"
+    },
+    {
+      "groupId": "arbeitgeber_5g",
+      "label": "Arbeitgeber",
+      "anlageName": "Anlage 5G",
+      "sectionLabel": "§ 50 Einkünfte aus nichtselbständiger Arbeit",
+      "fields": [
+        {
+          "fieldId": "aufgabenbereich",
+          "label": "Berufliche Tätigkeit / Aufgabenbereich",
+          "fieldType": "text",
+          "extractedValue": "Genauer",
+          "confidence": 0.85,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "nameOderFirma",
+          "label": "Name/Firma des Arbeitgebers",
+          "fieldType": "text",
+          "extractedValue": "Gustav Schmidt Marketing",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "strasseHausnr",
+          "label": "Straße, Hausnummer",
+          "fieldType": "text",
+          "extractedValue": "Hauptstraße 14",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "plzOrt",
+          "label": "PLZ, Ort",
+          "fieldType": "text",
+          "extractedValue": "68199 Mannheim",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "personalNr",
+          "label": "Personal-Nr.",
+          "fieldType": "text",
+          "extractedValue": "153-000078",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "arbeitseinkommen",
+          "label": "Arbeitseinkommen netto monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "3265.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "zulagen",
+          "label": "Zulagen monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "",
+          "confidence": 0.9,
+          "confidenceReason": "Nicht angegeben",
+          "status": "extracted_confirmed"
+        }
+      ]
+    },
+    {
+      "groupId": "wohnkosten_5j",
+      "label": "Wohnkosten",
+      "anlageName": "Anlage 5J",
+      "sectionLabel": "§ 61 Wohnkosten",
+      "fields": [
+        {
+          "fieldId": "wohnungQm",
+          "label": "Wohnungsgröße (qm)",
+          "fieldType": "number",
+          "extractedValue": "98",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "kaltmiete",
+          "label": "Kaltmiete monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "1002.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "nebenkosten",
+          "label": "Nebenkosten monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "175.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "gesamtmiete",
+          "label": "Gesamtmiete monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "1177.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "ichZahleMonatl",
+          "label": "Ich zahle monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "1177.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "mitbewohnerMonatl",
+          "label": "Mitbewohner zahlen monatl. (EUR)",
+          "fieldType": "number",
+          "extractedValue": "0.00",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        }
+      ]
+    },
+    {
+      "groupId": "schuldenbereinigungsplan7",
+      "label": "Schuldenbereinigungsplan (Allgemeiner Teil)",
+      "anlageName": "Anlage 7",
+      "sectionLabel": "§ 67–68 Schuldenbereinigungsplan",
+      "fields": [
+        {
+          "fieldId": "datum",
+          "label": "Datum des SBP",
+          "fieldType": "date",
+          "extractedValue": "12.03.2026",
+          "confidence": 0.95,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "planart",
+          "label": "Planart",
+          "fieldType": "radio",
+          "extractedValue": "Plan mit Einmalzahlung oder festen Raten gemäß dem in Anlage 7 A beiliegenden Plan",
+          "confidence": 0.9,
+          "confidenceReason": "",
+          "status": "extracted_confirmed"
+        },
+        {
+          "fieldId": "erlaeuterungenAnlage7c",
+          "label": "Erläuterungen (Anlage 7C) beigefügt",
+          "fieldType": "checkbox",
+          "extractedValue": "",
+          "confidence": 0.8,
+          "confidenceReason": "Anlage 7C ohne Inhalt",
+          "status": "extracted_confirmed"
+        }
+      ]
+    },
+    {
+      "groupId": "glaeubigeranlage6",
+      "label": "Gläubiger- und Forderungsverzeichnis",
+      "anlageName": "Anlage 6",
+      "sectionLabel": "§ 305 Abs. 1 Nr. 3 InsO",
+      "isArray": true,
+      "instances": [
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "Hamburger Sparkasse (Haspa)",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "forderungsgrund",
+            "label": "Forderungsgrund",
+            "fieldType": "text",
+            "extractedValue": "Ratenkredit (Renovierung)",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "hauptforderungEur",
+            "label": "Hauptforderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "15800.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenEur",
+            "label": "Zinsen (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenBis",
+            "label": "Zinsen berechnet bis",
+            "fieldType": "date",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "kostenEur",
+            "label": "Kosten (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "summeForderungEur",
+            "label": "Summe Forderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "15800.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "anteilGesamtverschuldungPct",
+            "label": "Anteil Gesamtverschuldung (%)",
+            "fieldType": "number",
+            "extractedValue": "56",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "ING-DiBa AG",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "forderungsgrund",
+            "label": "Forderungsgrund",
+            "fieldType": "text",
+            "extractedValue": "Privatkredit",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "hauptforderungEur",
+            "label": "Hauptforderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "6500.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenEur",
+            "label": "Zinsen (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenBis",
+            "label": "Zinsen berechnet bis",
+            "fieldType": "date",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "kostenEur",
+            "label": "Kosten (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "summeForderungEur",
+            "label": "Summe Forderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "6500.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "anteilGesamtverschuldungPct",
+            "label": "Anteil Gesamtverschuldung (%)",
+            "fieldType": "number",
+            "extractedValue": "23",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "OTTO GmbH & Co KG",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "forderungsgrund",
+            "label": "Forderungsgrund",
+            "fieldType": "text",
+            "extractedValue": "Ratenkauf Möbel und Elektronik",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "hauptforderungEur",
+            "label": "Hauptforderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "2340.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenEur",
+            "label": "Zinsen (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenBis",
+            "label": "Zinsen berechnet bis",
+            "fieldType": "date",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "kostenEur",
+            "label": "Kosten (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "summeForderungEur",
+            "label": "Summe Forderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "2340.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "anteilGesamtverschuldungPct",
+            "label": "Anteil Gesamtverschuldung (%)",
+            "fieldType": "number",
+            "extractedValue": "8",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "Vodafone GmbH",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "forderungsgrund",
+            "label": "Forderungsgrund",
+            "fieldType": "text",
+            "extractedValue": "Offene Mobilfunk- und Kabelrechnungen",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "hauptforderungEur",
+            "label": "Hauptforderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "678.90",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenEur",
+            "label": "Zinsen (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenBis",
+            "label": "Zinsen berechnet bis",
+            "fieldType": "date",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "kostenEur",
+            "label": "Kosten (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "summeForderungEur",
+            "label": "Summe Forderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "678.90",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "anteilGesamtverschuldungPct",
+            "label": "Anteil Gesamtverschuldung (%)",
+            "fieldType": "number",
+            "extractedValue": "2",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "Finanzamt Hamburg-Mitte",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "forderungsgrund",
+            "label": "Forderungsgrund",
+            "fieldType": "text",
+            "extractedValue": "Einkommensteuer 2022",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "hauptforderungEur",
+            "label": "Hauptforderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "1450.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenEur",
+            "label": "Zinsen (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenBis",
+            "label": "Zinsen berechnet bis",
+            "fieldType": "date",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "kostenEur",
+            "label": "Kosten (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "summeForderungEur",
+            "label": "Summe Forderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "1450.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "anteilGesamtverschuldungPct",
+            "label": "Anteil Gesamtverschuldung (%)",
+            "fieldType": "number",
+            "extractedValue": "5",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "BARMER",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "forderungsgrund",
+            "label": "Forderungsgrund",
+            "fieldType": "text",
+            "extractedValue": "Rückständige Kranken- und Pflegeversicherungsbeiträge",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "hauptforderungEur",
+            "label": "Hauptforderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "1560.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenEur",
+            "label": "Zinsen (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "zinsenBis",
+            "label": "Zinsen berechnet bis",
+            "fieldType": "date",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "kostenEur",
+            "label": "Kosten (EUR)",
+            "fieldType": "number",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "Nicht angegeben",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "summeForderungEur",
+            "label": "Summe Forderung (EUR)",
+            "fieldType": "number",
+            "extractedValue": "1560.00",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "anteilGesamtverschuldungPct",
+            "label": "Anteil Gesamtverschuldung (%)",
+            "fieldType": "number",
+            "extractedValue": "5",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ]
+      ],
+      "displayMode": "table"
+    },
+    {
+      "groupId": "glaeubigerAdressenAnlage7",
+      "label": "Beteiligte Gläubiger – Adressen und Bevollmächtigte",
+      "anlageName": "Anlage 7",
+      "sectionLabel": "§ 69 Beteiligte Gläubiger",
+      "isArray": true,
+      "instances": [
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "Hamburger Sparkasse (Haspa)",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "adresse",
+            "label": "Adresse",
+            "fieldType": "text",
+            "extractedValue": "Adolphsplatz 2, 20457 Hamburg",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "geschaeftszeichen",
+            "label": "Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "gesetzlVertreten",
+            "label": "Gesetzl. vertreten durch",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevName",
+            "label": "Verfahrensbevollmächtigte(r)",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevStrasseHausnr",
+            "label": "Bev. Straße, Hausnr.",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevPlzOrt",
+            "label": "Bev. PLZ, Ort",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevGeschaeftszeichen",
+            "label": "Bev. Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "ING-DiBa AG",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "adresse",
+            "label": "Adresse",
+            "fieldType": "text",
+            "extractedValue": "Theodor-Heuss-Allee 2, 60486 Frankfurt am Main",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "geschaeftszeichen",
+            "label": "Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "gesetzlVertreten",
+            "label": "Gesetzl. vertreten durch",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevName",
+            "label": "Verfahrensbevollmächtigte(r)",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevStrasseHausnr",
+            "label": "Bev. Straße, Hausnr.",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevPlzOrt",
+            "label": "Bev. PLZ, Ort",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevGeschaeftszeichen",
+            "label": "Bev. Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "OTTO GmbH & Co KG",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "adresse",
+            "label": "Adresse",
+            "fieldType": "text",
+            "extractedValue": "Werner-Otto-Straße 1-7, 22179 Hamburg",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "geschaeftszeichen",
+            "label": "Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "gesetzlVertreten",
+            "label": "Gesetzl. vertreten durch",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevName",
+            "label": "Verfahrensbevollmächtigte(r)",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevStrasseHausnr",
+            "label": "Bev. Straße, Hausnr.",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevPlzOrt",
+            "label": "Bev. PLZ, Ort",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevGeschaeftszeichen",
+            "label": "Bev. Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "Vodafone GmbH",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "adresse",
+            "label": "Adresse",
+            "fieldType": "text",
+            "extractedValue": "Ferdinand-Braun-Platz 1, 40549 Düsseldorf",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "geschaeftszeichen",
+            "label": "Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "gesetzlVertreten",
+            "label": "Gesetzl. vertreten durch",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevName",
+            "label": "Verfahrensbevollmächtigte(r)",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevStrasseHausnr",
+            "label": "Bev. Straße, Hausnr.",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevPlzOrt",
+            "label": "Bev. PLZ, Ort",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevGeschaeftszeichen",
+            "label": "Bev. Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "Finanzamt Hamburg-Mitte",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "adresse",
+            "label": "Adresse",
+            "fieldType": "text",
+            "extractedValue": "Steinstraße 10, 20095 Hamburg",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "geschaeftszeichen",
+            "label": "Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "gesetzlVertreten",
+            "label": "Gesetzl. vertreten durch",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevName",
+            "label": "Verfahrensbevollmächtigte(r)",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevStrasseHausnr",
+            "label": "Bev. Straße, Hausnr.",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevPlzOrt",
+            "label": "Bev. PLZ, Ort",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevGeschaeftszeichen",
+            "label": "Bev. Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ],
+        [
+          {
+            "fieldId": "nameOderFirma",
+            "label": "Name / Firma",
+            "fieldType": "text",
+            "extractedValue": "BARMER",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "adresse",
+            "label": "Adresse",
+            "fieldType": "text",
+            "extractedValue": "Axel-Springer-Straße 44, 10969 Berlin",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "geschaeftszeichen",
+            "label": "Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.95,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "gesetzlVertreten",
+            "label": "Gesetzl. vertreten durch",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevName",
+            "label": "Verfahrensbevollmächtigte(r)",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevStrasseHausnr",
+            "label": "Bev. Straße, Hausnr.",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevPlzOrt",
+            "label": "Bev. PLZ, Ort",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          },
+          {
+            "fieldId": "bevGeschaeftszeichen",
+            "label": "Bev. Geschäftszeichen",
+            "fieldType": "text",
+            "extractedValue": "",
+            "confidence": 0.9,
+            "confidenceReason": "",
+            "status": "extracted_confirmed"
+          }
+        ]
+      ],
+      "displayMode": "table"
+    }
+  ],
+  "schuldnerName": "Hoffmann, Sabine",
+  "aktenzeichen": "67b IK 112-24",
+  "aktenzeichenDisplay": "67b IK 112/24",
+  "tags": [
+    "akten/status/offen",
+    "akten/dringend"
+  ],
+  "hauptverantwortlicherId": "user-003"
+}

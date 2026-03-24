@@ -1,0 +1,18 @@
+{
+  "id": "user-002",
+  "name": "Dr. Sarah Weber",
+  "email": "s.weber@kanzlei-bergmann.de",
+  "initials": "SW",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=sarah-weber&backgroundColor=ffd5dc",
+  "roles": [
+    "user/role/kanzlei-partner"
+  ],
+  "tags": [
+    "user/team/erbrecht",
+    "user/standort/münchen",
+    "user/hierarchie/partner"
+  ],
+  "filterPreferences": {
+    "tags": []
+  }
+}

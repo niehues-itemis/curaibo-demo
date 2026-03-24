@@ -1,0 +1,16 @@
+{
+  "id": "user-009",
+  "name": "System Admin",
+  "email": "admin@kanzlei-bergmann.de",
+  "initials": "SA",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=system-admin&backgroundColor=c0aede",
+  "roles": [
+    "user/role/administrator"
+  ],
+  "tags": [
+    "user/standort/münchen"
+  ],
+  "filterPreferences": {
+    "tags": []
+  }
+}

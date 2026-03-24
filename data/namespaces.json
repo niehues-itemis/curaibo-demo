@@ -1,0 +1,89 @@
+{
+  "namespaces": [
+    {
+      "namespace": "",
+      "label": "Übergreifend",
+      "exclusive": false
+    },
+    {
+      "namespace": "akten",
+      "label": "Akten",
+      "exclusive": false
+    },
+    {
+      "namespace": "akten/status",
+      "label": "Akten-Status",
+      "exclusive": true
+    },
+    {
+      "namespace": "akten/typ",
+      "label": "Akten-Typ",
+      "exclusive": true
+    },
+    {
+      "namespace": "aufgabe",
+      "label": "Aufgabe",
+      "exclusive": false
+    },
+    {
+      "namespace": "aufgabe/priorität",
+      "label": "Priorität",
+      "exclusive": true
+    },
+    {
+      "namespace": "user",
+      "label": "User",
+      "exclusive": false
+    },
+    {
+      "namespace": "user/role",
+      "label": "Rolle",
+      "exclusive": false
+    },
+    {
+      "namespace": "user/team",
+      "label": "Team",
+      "exclusive": false
+    },
+    {
+      "namespace": "user/standort",
+      "label": "Standort",
+      "exclusive": false
+    },
+    {
+      "namespace": "user/hierarchie",
+      "label": "Hierarchie",
+      "exclusive": false
+    },
+    {
+      "namespace": "dokument/kategorie",
+      "label": "Kategorie",
+      "exclusive": false
+    },
+    {
+      "namespace": "dokument/kategorie/stammakte",
+      "label": "Stammakte",
+      "exclusive": false
+    },
+    {
+      "namespace": "dokument/kategorie/schuldner-gesellschaft",
+      "label": "Schuldner Gesellschaft",
+      "exclusive": false
+    },
+    {
+      "namespace": "dokument/kategorie/vertraege",
+      "label": "Vertraege",
+      "exclusive": false
+    },
+    {
+      "namespace": "dokument/kategorie/bewegliches-av",
+      "label": "Bewegliches Av",
+      "exclusive": false
+    },
+    {
+      "namespace": "dokument/tag",
+      "label": "Tag",
+      "exclusive": false
+    }
+  ]
+}

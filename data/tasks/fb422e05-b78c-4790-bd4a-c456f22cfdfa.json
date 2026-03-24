@@ -1,0 +1,38 @@
+{
+  "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+  "title": "mach mal",
+  "status": "erledigt",
+  "tags": [],
+  "createdBy": "user-001",
+  "assignees": [
+    "user-003"
+  ],
+  "linkedElements": [
+    {
+      "type": "beteiligter",
+      "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+      "groupId": "schuldner_person",
+      "beteiligterId": "schuldner",
+      "label": "Müller, Erika"
+    }
+  ],
+  "id": "fb422e05-b78c-4790-bd4a-c456f22cfdfa",
+  "createdAt": "2026-03-20T11:16:27.802Z",
+  "comments": [],
+  "history": [
+    {
+      "id": "e2ab7b83-d3fa-4742-bf06-dfb01845e084",
+      "timestamp": "2026-03-20T11:16:27.802Z",
+      "authorId": "user-001",
+      "type": "created"
+    },
+    {
+      "id": "425357f0-d6e7-491f-b0a0-f0ea3d1e15da",
+      "timestamp": "2026-03-24T15:56:59.038Z",
+      "authorId": "user-003",
+      "type": "status_changed",
+      "from": "offen",
+      "to": "erledigt"
+    }
+  ]
+}

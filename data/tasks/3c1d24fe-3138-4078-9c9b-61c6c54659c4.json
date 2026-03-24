@@ -1,0 +1,19 @@
+{
+  "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+  "title": "bitte die Vorschläge der KI validieren",
+  "status": "offen",
+  "createdBy": "user-001",
+  "assignees": [
+    "user-008"
+  ],
+  "linkedElements": [
+    {
+      "type": "dokument",
+      "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    }
+  ],
+  "id": "3c1d24fe-3138-4078-9c9b-61c6c54659c4",
+  "createdAt": "2026-03-19T13:24:04.535Z"
+}

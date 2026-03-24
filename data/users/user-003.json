@@ -1,0 +1,18 @@
+{
+  "id": "user-003",
+  "name": "Jan Müller",
+  "email": "j.mueller@kanzlei-bergmann.de",
+  "initials": "JM",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=jan-mueller&backgroundColor=c0aede",
+  "roles": [
+    "user/role/rechtsanwalt"
+  ],
+  "tags": [
+    "user/team/insolvenz",
+    "user/standort/münchen",
+    "user/hierarchie/senior"
+  ],
+  "filterPreferences": {
+    "tags": []
+  }
+}

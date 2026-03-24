@@ -1,0 +1,19 @@
+{
+  "id": "user-001",
+  "name": "Dr. Thomas Bergmann",
+  "email": "t.bergmann@kanzlei-bergmann.de",
+  "initials": "TB",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=thomas-bergmann&backgroundColor=b6e3f4",
+  "roles": [
+    "user/role/kanzlei-partner"
+  ],
+  "tags": [
+    "user/team/insolvenz",
+    "user/standort/münchen",
+    "user/hierarchie/partner"
+  ],
+  "filterPreferences": {
+    "tags": [],
+    "aktenTags": []
+  }
+}

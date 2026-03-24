@@ -1,0 +1,27 @@
+{
+  "eingehend/Arbeitgeberwechsel_Weber.docx": [
+    "dokument/kategorie/schuldner-gesellschaft/arbeitgeber-rententraeger",
+    "dokument/kategorie/arbeitnehmer"
+  ],
+  "ausgehend/Glaeubigerbrief_01_Sparkasse_Frankfurt.docx": [
+    "dokument/kategorie/stammakte/glaeubigeranschreiben"
+  ],
+  "ausgehend/Glaeubigerbrief_02_Postbank_AG.docx": [
+    "dokument/kategorie/stammakte/glaeubigeranschreiben"
+  ],
+  "ausgehend/Glaeubigerbrief_03_Telefnica_Germany_O2.docx": [
+    "dokument/kategorie/stammakte/glaeubigeranschreiben"
+  ],
+  "ausgehend/Glaeubigerbrief_04_Finanzamt_Frankfurt_am_Main.docx": [
+    "dokument/kategorie/stammakte/glaeubigeranschreiben"
+  ],
+  "ausgehend/Glaeubigerbrief_05_KfW_Bankengruppe.docx": [
+    "dokument/kategorie/stammakte/glaeubigeranschreiben"
+  ],
+  "ausgehend/Glaeubigerbrief_06_Stadtwerke_Frankfurt_EWT_GmbH.docx": [
+    "dokument/kategorie/stammakte/glaeubigeranschreiben"
+  ],
+  "eingehend/Email_13-03-2026--14-13_Änderung des Arbeitsgebers.pdf": [
+    "dokument/kategorie/schuldner-gesellschaft/korrespondenz-schuldner"
+  ]
+}

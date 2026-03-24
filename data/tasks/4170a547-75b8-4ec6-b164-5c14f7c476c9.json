@@ -1,0 +1,29 @@
+{
+  "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+  "title": "Dokumentenprüfung",
+  "status": "offen",
+  "tags": [],
+  "createdBy": "user-001",
+  "assignees": [
+    "user-001"
+  ],
+  "linkedElements": [
+    {
+      "type": "dokument",
+      "caseId": "234e6e1a-59a0-4799-8884-54249b6117cb",
+      "folder": "eingehend",
+      "filename": "Arbeitgeberwechsel_Weber.docx"
+    }
+  ],
+  "id": "4170a547-75b8-4ec6-b164-5c14f7c476c9",
+  "createdAt": "2026-03-20T08:14:00.979Z",
+  "comments": [],
+  "history": [
+    {
+      "id": "9b2364f1-358a-4335-a571-82378ad1b361",
+      "timestamp": "2026-03-20T08:14:00.979Z",
+      "authorId": "user-001",
+      "type": "created"
+    }
+  ]
+}

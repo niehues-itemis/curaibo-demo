@@ -1,0 +1,44 @@
+{
+  "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+  "title": "Prüfen",
+  "description": "Schau bitte, ob das Dokument hier richtig ist!",
+  "status": "offen",
+  "createdBy": "user-003",
+  "assignees": [
+    "user-003",
+    "user-001"
+  ],
+  "linkedElements": [
+    {
+      "type": "dokument",
+      "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+      "folder": "eingehend",
+      "filename": "Email_16-03-2026--09-50_Test.pdf"
+    },
+    {
+      "type": "dokument",
+      "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+      "folder": "eingehend",
+      "filename": "Email_16-03-2026--12-56_Neue Insolvenz.pdf"
+    }
+  ],
+  "id": "0820c24e-3599-4a1b-a5d6-b2cd559b41c2",
+  "createdAt": "2026-03-19T13:03:00.512Z",
+  "tags": [
+    "aufgabe/priorität/hoch",
+    "aufgabe/rueckfrage"
+  ],
+  "comments": [],
+  "history": [
+    {
+      "id": "6459edda-e3c7-4a47-9a56-ccabdd0cab14",
+      "timestamp": "2026-03-19T15:17:39.080Z",
+      "authorId": "user-001",
+      "type": "assignees_changed",
+      "added": [
+        "user-001"
+      ],
+      "removed": []
+    }
+  ]
+}

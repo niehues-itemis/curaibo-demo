@@ -1,0 +1,41 @@
+{
+  "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+  "title": "Anschreiben und an Termine Erinnern!",
+  "status": "offen",
+  "tags": [
+    "aufgabe/priorität/hoch"
+  ],
+  "createdBy": "user-001",
+  "assignees": [
+    "user-001"
+  ],
+  "linkedElements": [
+    {
+      "type": "beteiligter",
+      "caseId": "33d784c6-92b6-4080-915c-3e33a7feb1e7",
+      "groupId": "schuldner_person",
+      "beteiligterId": "schuldner",
+      "label": "Müller, Erika"
+    }
+  ],
+  "id": "9f0f301c-f559-41c8-a647-563984cf899d",
+  "createdAt": "2026-03-19T15:22:30.474Z",
+  "comments": [],
+  "history": [
+    {
+      "id": "b5552568-ac10-4316-b227-07d54634a0e5",
+      "timestamp": "2026-03-19T15:22:30.474Z",
+      "authorId": "user-001",
+      "type": "created"
+    },
+    {
+      "id": "ad96cebf-06dc-4a2e-8565-1d1a41604b09",
+      "timestamp": "2026-03-19T15:22:39.148Z",
+      "type": "tags_changed",
+      "added": [
+        "aufgabe/priorität/hoch"
+      ],
+      "removed": []
+    }
+  ]
+}

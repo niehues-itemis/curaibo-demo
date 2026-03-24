@@ -1,0 +1,17 @@
+{
+  "id": "user-007",
+  "name": "Klaus Bauer",
+  "email": "k.bauer@kanzlei-bergmann.de",
+  "initials": "KB",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=klaus-bauer&backgroundColor=b6e3f4",
+  "roles": [
+    "user/role/refa"
+  ],
+  "tags": [
+    "user/team/insolvenz",
+    "user/standort/münchen"
+  ],
+  "filterPreferences": {
+    "tags": []
+  }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "9b572ee7-0377-4787-a318-8ad33d250162",
+    "sourceDocument": {
+      "folder": "eingehend",
+      "filename": "INS_ErikaMueller_2026_handschriftlich.pdf"
+    },
+    "groupId": "schuldner_person",
+    "fieldId": "telefon",
+    "fieldLabel": "Telefon (privat)",
+    "currentValue": "+49 123 123456",
+    "proposedValue": "+41 123 123456",
+    "reason": "Im Dokument steht 'Telefon tagsüber: +41 123 123456' mit Schweizer Vorwahl +41 statt der bisherigen deutschen Vorwahl +49. Dies könnte eine Korrektur oder ein Fehler sein.",
+    "confidence": 0.6,
+    "status": "rejected",
+    "createdAt": "2026-03-17T09:00:20.795Z",
+    "reviewedAt": "2026-03-19T11:43:22.458Z"
+  }
+]

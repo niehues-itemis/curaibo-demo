@@ -1,0 +1,22 @@
+{
+  "caseId": "a0d15472-63c8-4b70-a2ea-bb799db38118",
+  "title": "prüfen",
+  "status": "in_bearbeitung",
+  "tags": [
+    "dringend"
+  ],
+  "createdBy": "user-001",
+  "assignees": [
+    "user-001"
+  ],
+  "linkedElements": [
+    {
+      "type": "dokument",
+      "caseId": "a0d15472-63c8-4b70-a2ea-bb799db38118",
+      "folder": "eingehend",
+      "filename": "INS_ErikaMueller_2026_handschriftlich.pdf"
+    }
+  ],
+  "id": "a7d28e70-b109-4eef-bf9f-660250496016",
+  "createdAt": "2026-03-19T14:44:02.402Z"
+}

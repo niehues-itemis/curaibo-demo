@@ -1,0 +1,41 @@
+{
+  "caseId": "a0d15472-63c8-4b70-a2ea-bb799db38118",
+  "title": "kurze Frage!",
+  "status": "in_bearbeitung",
+  "tags": [
+    "aufgabe/priorität/hoch"
+  ],
+  "createdBy": "user-001",
+  "assignees": [
+    "user-002",
+    "user-001"
+  ],
+  "linkedElements": [
+    {
+      "type": "akte",
+      "caseId": "a0d15472-63c8-4b70-a2ea-bb799db38118",
+      "label": "INS-2026-003"
+    }
+  ],
+  "id": "25a3b313-6c7c-494a-8bce-e9cb19622514",
+  "createdAt": "2026-03-19T14:13:13.784Z",
+  "comments": [],
+  "history": [
+    {
+      "id": "072e76e0-1024-4e5f-92e7-cf486aa0ed09",
+      "timestamp": "2026-03-20T08:26:30.328Z",
+      "authorId": "user-001",
+      "type": "status_changed",
+      "from": "in_bearbeitung",
+      "to": "erledigt"
+    },
+    {
+      "id": "6e741e16-d4a0-401a-8221-6aa9d72aa222",
+      "timestamp": "2026-03-20T10:43:18.387Z",
+      "authorId": "user-001",
+      "type": "status_changed",
+      "from": "erledigt",
+      "to": "in_bearbeitung"
+    }
+  ]
+}

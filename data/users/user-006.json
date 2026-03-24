@@ -1,0 +1,17 @@
+{
+  "id": "user-006",
+  "name": "Anna Fischer",
+  "email": "a.fischer@kanzlei-bergmann.de",
+  "initials": "AF",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=anna-fischer&backgroundColor=ffd5dc",
+  "roles": [
+    "user/role/refa"
+  ],
+  "tags": [
+    "user/team/insolvenz",
+    "user/standort/münchen"
+  ],
+  "filterPreferences": {
+    "tags": []
+  }
+}

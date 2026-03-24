@@ -1,0 +1,18 @@
+{
+  "id": "user-004",
+  "name": "Lena Koch",
+  "email": "l.koch@kanzlei-bergmann.de",
+  "initials": "LK",
+  "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=lena-koch&backgroundColor=d1f4e0",
+  "roles": [
+    "user/role/rechtsanwalt"
+  ],
+  "tags": [
+    "user/team/insolvenz",
+    "user/standort/münchen",
+    "user/hierarchie/junior"
+  ],
+  "filterPreferences": {
+    "tags": []
+  }
+}
