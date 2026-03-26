@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   // pdfjs-dist aus dem Turbopack-Bundling ausschließen —
   // Node.js lädt es direkt als natives ESM-Modul
   serverExternalPackages: ["pdfjs-dist", "imapflow", "mailparser", "pdfkit", "mammoth", "xlsx"],
@@ -15,4 +14,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
